@@ -20,7 +20,7 @@ export const Gallery3 = () => {
           className="mt-8 flex gap-x-6 w-[1312px]"
           drag="x"
           whileTap={{ cursor: "grabbing" }}
-          dragConstraints={{ right: 0, left: -!width }}
+          dragConstraints={{ right: 0, left: -width }}
         >
           <div className="p-6 shadow-xl rounded-lg">
             <img

@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
+interface widthProps {}
+
 export const Gallery = () => {
   const carousel = useRef();
-  const [width, setWidth] = useState();
+  const [width, setWidth] = useState<widthProps>();
 
   useEffect(() => {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
@@ -18,7 +20,7 @@ export const Gallery = () => {
           className="mt-8 flex w-[1312px]"
           drag="x"
           whileTap={{ cursor: "grabbing" }}
-          dragConstraints={{ right: 0, left: -width }}
+          dragConstraints={{ right: 0, left: -!width }}
         >
           <div className="pr-6">
             <img
