@@ -3,7 +3,7 @@ export const Header = () => {
     <>
       <header className="max-w-[1366px] h-[85px] flex justify-between items-center m-auto px-12 py-7">
         <div>
-          <img src="./logo.svg" alt="logo" />
+          <img className="" src="./logo.svg" alt="logo" />
         </div>
         <nav className="flex gap-x-6 text-white text-base">
           <ul>
