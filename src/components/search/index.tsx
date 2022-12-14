@@ -32,14 +32,14 @@ export const Search = () => {
         </div>
 
         <div className="w-auto flex gap-2 relative">
-          <img src="./src/assets/icons/user.png" />
+          <img src="/src/assets/icons/user.png" />
           <input
             className="bg-transparent text-white w-[115px] focus:outline-none placeholder:text-white"
             type="text"
             placeholder="1 room, 2 adults"
           />
         </div>
-        <button className="flex justify-end bg-white text-blue-600 font-bold rounded-3xl px-12 py-3 transition ease-in-out hover:bg-[#2659C3] hover:text-white duration-300">
+        <button className="flex justify-end bg-white text-blue-600 font-bold rounded-3xl ml-8 px-12 py-3 transition ease-in-out hover:bg-[#2659C3] hover:text-white duration-300">
           Search
         </button>
       </div>
