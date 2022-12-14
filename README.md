@@ -36,7 +36,7 @@ npm run dev
 
 Você pode visualiza os projetos pelos links abaixo:
 
-- [Live Preview](travel-website-7zvsccmds-joeseraphy.vercel.app/)
+- [Live Preview](https://travel-website-7zvsccmds-joeseraphy.vercel.app/)
 
 - [Figma](<https://www.figma.com/file/rahvyXjj8dICEVEel4NtHE/TRAVEL-website-landing-page-(Community)?t=BdyzMdLTh3tYCLW1-6>)
 

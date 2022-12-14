@@ -2,10 +2,10 @@ export const Footer = () => {
   return (
     <>
       <footer className="mt-36">
-        <div className="bg-[url('./images/bgFooter.png')] bg-no-repeat bg-cover h-[543px]">
+        <div className="bg-[url('./assets/images/bgFooter.png')] bg-no-repeat bg-cover h-[543px]">
           <div className="max-w-[1366px] h-[543px] overflow-y-hidden m-auto">
             <div className="flex  mt-20 ml-32">
-              <img className="" src="./images/iPhone.png" alt="" />
+              <img src="./src/assets/images/iphone.png" alt="" />
               <div className="w-[772px] ml-20">
                 <h2 className="text-white font-bold text-5xl mb-4">
                   Your all-in-one travel app.
@@ -52,8 +52,14 @@ export const Footer = () => {
                         <div className="w-0.5 h-16 bg-white/60 ml-1"></div>
                       </div>
                       <div className="ml-12 grid gap-y-8">
-                        <img src="./images/googleplay.png" alt="" />
-                        <img src="./images/appstore.png" alt="" />
+                        <img
+                          src="./src/assets/images/googleplay.png"
+                          alt="Google play"
+                        />
+                        <img
+                          src="./src/assets/images/appstore.png"
+                          alt="App store"
+                        />
                       </div>
                     </div>
                   </div>
@@ -99,16 +105,16 @@ export const Footer = () => {
             </div>
             <div className="w-40 h-6 flex gap-6">
               <a href="#">
-                <img src="./images/instagram.png" alt="instagram" />
+                <img src="./src/assets/images/instagram.png" alt="instagram" />
               </a>
               <a href="#">
-                <img src="./images/facebook.png" alt="facebook" />
+                <img src="./src/assets/images/facebook.png" alt="facebook" />
               </a>
               <a href="#">
-                <img src="./images/twitter.png" alt="twitter" />
+                <img src="./src/assets/images/twitter.png" alt="twitter" />
               </a>
               <a href="#">
-                <img src="./images/youtube.png" alt="youtbe" />
+                <img src="./src/assets/images/youtube.png" alt="youtbe" />
               </a>
             </div>
           </div>

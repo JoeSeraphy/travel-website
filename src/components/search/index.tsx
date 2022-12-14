@@ -32,7 +32,7 @@ export const Search = () => {
         </div>
 
         <div className="w-auto flex gap-2 relative">
-          <img src="icons/user.png" />
+          <img src="./src/assets/icons/user.png" />
           <input
             className="bg-transparent text-white w-[115px] focus:outline-none placeholder:text-white"
             type="text"
