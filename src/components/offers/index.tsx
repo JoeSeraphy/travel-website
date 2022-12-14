@@ -8,7 +8,7 @@ export const Offers = () => {
         horizontal
         className="flex gap-6 mt-16 max-w-[1312px] overflow-hidden"
       >
-        <div className="flex w-1/2 py-6 px-4 rounded-2xl shadow-xl">
+        <div className="min-w-[688px] min-h-[256px] flex w-1/2 py-6 px-4 rounded-2xl shadow-xl">
           <img
             className="w-[310px] h-[210px] object-cover rounded-lg"
             src="https://source.unsplash.com/random/landscape/?airplane"
@@ -28,12 +28,12 @@ export const Offers = () => {
             </button>
           </div>
         </div>
-        <div className="flex w-1/2 py-6 px-4 rounded-2xl shadow-xl">
+        <div className="min-w-[688px] min-h-[256px] flex w-1/2 py-6 px-4 rounded-2xl shadow-xl">
           <img
             className="w-[310px] h-[210px] object-cover rounded-lg"
             src="https://source.unsplash.com/random/landscape/?hotel"
           />
-          <div className="grid justify-between pl-4">
+          <div className=" grid justify-between pl-4">
             <span className="text-base font-normal text-gray-600 mb-[-32px]">
               International Hotels
             </span>

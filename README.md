@@ -4,12 +4,6 @@
 <img alt="Preview Desktop" title="Travel" src=".github/desktop.jpg" />
 </h1>
 
-## Mobile
-
-<h1 align="center">
-<img alt="Preview Mobile" title="Travel" src=".github/mobile.jpg" />
-</h1>
-
 <br>
 
 ## 🧪 Technologies
@@ -18,7 +12,6 @@ Este Projeto foi desenvolvido usando seguintes tecnolias:
 
 - [ReactJS](https://reactjs.org)
 - [ViteJS](https://vitejs.dev)
-- [Framer-motion](https://www.framer.com/motion/)
 - [Tailwind](https://tailwindcss.com)
 
 ## 🚀 Getting started
@@ -43,7 +36,7 @@ npm run dev
 
 Você pode visualiza os projetos pelos links abaixo:
 
-- [Live Preview]()
+- [Live Preview](travel-website-7zvsccmds-joeseraphy.vercel.app/)
 
 - [Figma](<https://www.figma.com/file/rahvyXjj8dICEVEel4NtHE/TRAVEL-website-landing-page-(Community)?t=BdyzMdLTh3tYCLW1-6>)
 

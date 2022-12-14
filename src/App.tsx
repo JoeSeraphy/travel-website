@@ -5,7 +5,7 @@ import { Main } from "./components/main";
 function App() {
   return (
     <>
-      <div className="bg-[url('./background.png')] bg-no-repeat bg-cover h-screen">
+      <div className="bg-[url('./images/background.png')] bg-no-repeat bg-cover h-screen">
         <Header />
         <Main />
         <Footer />

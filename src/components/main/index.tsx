@@ -8,7 +8,7 @@ import { Search } from "../search";
 export const Main = () => {
   return (
     <>
-      <section className="lg:max-w-[1366px] max-w-[1024px] m-auto px-[120px] pt-[125px]">
+      <section className="max-w-[1366px] m-auto px-[120px] pt-[125px]">
         <Search />
         <Categories />
         <Gallery />
