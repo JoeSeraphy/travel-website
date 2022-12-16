@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="mt-36">
-        <div className="bg-[url('./assets/images/bgFooter.png')] bg-no-repeat bg-cover h-[543px]">
+        <div className="bg-[url('src/assets/images/bgFooter.png')] bg-no-repeat bg-cover h-[543px]">
           <div className="max-w-[1366px] h-[543px] overflow-y-hidden m-auto">
             <div className="flex  mt-20 ml-32">
               <img src="/src/assets/images/iphone.png" alt="" />
